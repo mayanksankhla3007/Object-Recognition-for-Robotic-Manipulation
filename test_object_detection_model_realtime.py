@@ -33,8 +33,8 @@ def draw_label(img, label, x, y, color_box):
 
 def main():
     # Load your trained YOLO models
-    gripper_model = YOLO('/media/ihub/9CFC-8D2F/Project/gripper_detection/yolov8_gripper_model/weights/best.pt')
-    object_model = YOLO('/media/ihub/9CFC-8D2F/Project/object_detection_model/best.pt')
+    gripper_model = YOLO('gripper_detection_model.pt')
+    object_model = YOLO('object_recognition_model.pt')
 
     # Setup DepthAI pipeline
     pipeline = dai.Pipeline()
