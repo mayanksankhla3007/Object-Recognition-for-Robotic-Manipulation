@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load your trained model (update path)
-model = YOLO('object_detection_model/best.pt')
+model = YOLO('object_detection_model.pt')
 
 # Load an image (update path)
 img_path = '/media/ihub/9CFC-8D2F/Project/gripper_crops/session_10/frame_0020_0.jpg'
