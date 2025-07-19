@@ -19,7 +19,7 @@ This project enables a robotic arm to **recognize and classify the object** it i
 A custom dataset was prepared using videos of the robotic arm interacting with objects. The gripper region was cropped and manually annotated.
 
 📥 **[Click here to download the dataset](https://drive.google.com/file/d/YOUR_DATASET_LINK)**  
-_(Replace with your actual Drive/Kaggle link)_
+
 
 After download:
 - Unzip the dataset.
