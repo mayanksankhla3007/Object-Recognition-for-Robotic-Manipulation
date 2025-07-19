@@ -12,18 +12,19 @@ This project enables a robotic arm to **recognize and classify the object** it i
 - Modular training and inference pipeline.
 - Fully documented dataset preparation and model training flow.
 
+
 ---
 
-## 📁 Dataset
+## 📁 Dataset & Pretrained Models
 
-A custom dataset was prepared using videos of the robotic arm interacting with objects. The gripper region was cropped and manually annotated.
+📥 **[Download Dataset + Trained Models](https://drive.google.com/drive/folders/1I_5nQUgrvlu9U8h595vCt1r-NStuat5S)**
 
-📥 **[Click here to download the dataset](https://drive.google.com/file/d/YOUR_DATASET_LINK)**  
+This shared folder contains:
+- `gripper_detection_model.pt` – model for gripper detection
+- `object_recognition_model.pt` – model for object recognition
+- `gripper_dataset/` – Annotated YOLO-format dataset for gripper detection
+- `object_recognition_dataset/` – Annotated YOLO-format dataset for object recognition
 
-
-After download:
-- Unzip the dataset.
-- Place the folders (`images`, `labels`) in the appropriate training directory as per YOLO format.
 
 ---
 
