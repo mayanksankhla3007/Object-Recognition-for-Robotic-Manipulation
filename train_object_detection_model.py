@@ -3,7 +3,7 @@
 from ultralytics import YOLO
 
 # Path to dataset.yaml (update if needed)
-DATASET_YAML = 'gripper_crops_dataset/dataset.yaml'  # <-- Update this!
+DATASET_YAML = 'object_recognition_dataset/dataset.yaml'  # <-- Update this!
 
 # Load YOLOv8m pretrained model
 model = YOLO('yolov8m.pt')
@@ -19,5 +19,5 @@ model.train(
 )
 
 # After training, the model will be saved in:
-# object_detection_gripper/yolov8m_object_model/weights/best.pt
+# object_recognition_model/yolov8m_object_mode/weights/best.pt
 
