@@ -1,0 +1,12 @@
+ultralytics==8.0.20
+opencv-python
+depthai
+numpy
+matplotlib
+torch>=1.12.0
+torchvision
+Pillow
+tqdm
+labelImg
+scikit-learn
+pyyaml
