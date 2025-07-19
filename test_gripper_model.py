@@ -3,7 +3,7 @@ import depthai as dai
 from ultralytics import YOLO
 
 # Load the YOLOv8 model (replace with your trained model path)
-model = YOLO('gripper_detection/yolov8_gripper_model/weights/best.pt')
+model = YOLO('gripper_detection_model.pt')
 
 # Create pipeline for OAK camera
 pipeline = dai.Pipeline()
