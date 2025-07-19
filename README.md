@@ -33,5 +33,5 @@ This shared folder contains:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/object-recognition-robotic-arm.git
+git clone https://github.com/mayanksankhla3007/Object-Recognition-for-Robotic-Manipulation.git
 cd object-recognition-robotic-arm
